@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 2000px;
+    background: url("casita.jpg") no-repeat fixed center crimson;
+    /*background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;*/
+}
+
+p{
+    color : red;
+}
+
+#miParrafo{
+    color: yellow;
+}
+
+.azul{
+    background-color: rgb(45, 45, 240);
+    
+}
