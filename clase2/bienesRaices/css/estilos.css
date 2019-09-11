@@ -45,3 +45,108 @@ body{
 .navegacion a:last-of-type{
     margin: 0;
 }
+
+.contenedor-iconos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.icono{
+  flex-basis: calc(33.33% - 10px);
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.icono h3{
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+.icono h3, .icono p{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.icono p{
+  margin-bottom: 30px;
+}
+
+.titulo-nosotros{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.contenedor-anuncios{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor-anuncios img{
+  width: 100%;
+}
+
+.anuncio{
+  flex-basis: calc(33.33% - 10px);
+  border: 1px solid gray;
+  background-color: #F5F5F5;
+  margin-bottom: 30px;
+}
+
+.anuncio a{
+  margin: 0 auto;
+}
+
+.contenido-anuncio{
+  padding: 40px 20px;
+}
+
+.contenido-anuncio h3{
+  font-size: 32px;
+  margin-top: 5px;
+}
+
+.precio{
+  color: #71B100;
+}
+
+.boton{
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  width: 250px;
+  padding: 10px 25px;
+  display: block;
+  text-align: center;
+}
+
+.boton-naranja{
+  background-color: #E08709;
+}
+
+.boton-verde{
+  background-color: green;
+}
+
+.comodidades{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  flex: 1;
+}
+
+.comodidades li{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.comodidades li img{
+  margin-right: 20px;
+}
+
+.contenedor-ver-todas{
+  display: flex;
+
+}
