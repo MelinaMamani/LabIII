@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+  let array = ["juan","anna",true,23,[1,2,3],{nombre: "jorge", edad: 20}];
+    /*
+    Recorrer array
+    for (let i = 0; i < array.length; i++) {
+      console.log(array[i]);
+
+    }*/
+
+    /*Con forof
+    for (elemento of array) {
+      console.log(elemento);
+    }*/
+
+
+    /*forma 1
+    array.forEach(elemento => console.log(elemento));
+
+    forma 2
+    array.forEach(mostrar);
+
+    function mostrar(algo) {
+      console.log(algo);
+    };
+
+forma 3*/
+    array.forEach(function (algo) {
+      console.log(algo);
+    });
+
+  </script>
+
+</body>
+</html>

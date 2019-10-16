@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<script>
+  let array = ["juan","anna", "jorge", "julia", "andre"];
+  let numeros = [6,5,4,3,2,1];
+
+    let personas = [
+      {nombre: "juana", edad: 9},
+      {nombre: "juan", edad: 19},
+      {nombre: "andres", edad: 10},
+      {nombre: "pablito", edad: 44}
+    ]
+
+  console.log(array.some(elemento => elemento==="julia"));
+  console.log(array.every(elemento => elemento.includes('a')));
+  console.log(array.every(elemento => elemento.length > 3));
+
+
+  console.log(array.sort());
+  console.log(numeros.sort((a,b) => a-b));
+
+  let nombres = personas.map(p => p.nombre);
+
+  nombres.forEach(nombre => {
+    let item = document.createElement('li');
+    item.textContent = nombre;
+    document.getElementById('listaNombre').appendChild(item);
+  })
+  </script>
+<body>
+
+
+<ul id="listaNombre">
+
+</ul>
+</body>
+</html>
